@@ -18,12 +18,14 @@
         <style>
             body {
                 font-family: 'Nunito';
+                background: gray;
+                color: #fff;
                 
             }
         </style>
     </head>
     <body class="antialiased">
-    <h1 style="text-align:center; font-family: 'Amatic SC', cursive; ">López Leija María Vianey</h1><br>
+    <h1 style="text-align:center; font-family: 'Amatic SC', cursive; ">López Leija María Vianey</h1>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 
