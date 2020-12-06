@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -17,11 +18,12 @@
         <style>
             body {
                 font-family: 'Nunito';
+                
             }
         </style>
     </head>
     <body class="antialiased">
-    <h1 id="nombre">López Leija María Vianey</h1><br>
+    <h1 style="text-align:center; font-family: 'Amatic SC', cursive; ">López Leija María Vianey</h1><br>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
                 
