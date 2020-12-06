@@ -21,7 +21,6 @@
             }
             #nombre {
                 font-family: 'Amatic SC', cursive;
-                color:#fff;
                 text-aling:center;
 
             }
