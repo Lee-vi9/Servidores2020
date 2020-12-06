@@ -8,7 +8,6 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -19,17 +18,13 @@
             body {
                 font-family: 'Nunito';
             }
-            #nombre {
-                font-family: 'Amatic SC', cursive;
-                text-aling:center;
-
-            }
         </style>
     </head>
     <body class="antialiased">
+    <h1 id="nombre">López Leija María Vianey</h1><br>
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
             @if (Route::has('login'))
-                <h1 id="nombre">López Leija María Vianey</h1><br>
+                
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
                         <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
